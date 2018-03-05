@@ -2,6 +2,8 @@
 //! And manages available rooms. Peers send messages to other peers in same
 //! room through `ChatServer`.
 
+// 通过demo学rust
+
 use std::cell::RefCell;
 use std::collections::{HashMap, HashSet};
 use rand::{self, Rng, ThreadRng};
