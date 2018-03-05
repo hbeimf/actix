@@ -26,7 +26,7 @@ path = "src/lib.rs"
 default = []
 
 [workspace]
-members = ["examples/chat"]
+members = ["examples/chat", "examples/chat_serv"]
 
 [dependencies]
 actix_derive = "0.2"
